@@ -46,12 +46,17 @@
   max-width: 100%;
 }
 
+.grid Image {
+  width: 250px;
+  flex-shrink: 0;
+}
+
 .card {
   padding: 1rem 1.2rem;
   margin: 0.5rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0.3);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  border: 2px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
 }
 
