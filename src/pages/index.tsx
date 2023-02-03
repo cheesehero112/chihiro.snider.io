@@ -24,7 +24,7 @@ export default function Home() {
         />
         <link
           rel='icon'
-          href='/fav-portfolio.png'
+          href='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
         />
       </Head>
       <About />

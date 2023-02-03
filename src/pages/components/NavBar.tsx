@@ -64,7 +64,7 @@ export default function withAction() {
             <Image
               width='100px'
               borderRadius={7}
-              src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
+              src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/portfolio-narrow-logo.png'
               alt='Website Logo'
               m={6}
             />
