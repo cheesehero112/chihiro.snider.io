@@ -4,7 +4,12 @@ import { Heading } from '@chakra-ui/react';
 export default function Project() {
   return (
     <>
-      <Heading>Projects</Heading>
+      <Heading
+        size='lg'
+        m={8}
+      >
+        Projects
+      </Heading>
       <Projects />
     </>
   );

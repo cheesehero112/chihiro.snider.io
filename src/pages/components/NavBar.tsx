@@ -62,9 +62,9 @@ export default function withAction() {
             alignItems={'center'}
           >
             <Image
-              background='transparent'
-              boxSize='100%'
-              src='.../public/portfolio-logo.png'
+              width='100px'
+              borderRadius={7}
+              src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
               alt='Website Logo'
               m={6}
             />

@@ -50,7 +50,7 @@ export function Projects() {
         <CardFooter>
           <Button
             variant='solid'
-            colorScheme='blue'
+            colorScheme='teal'
           >
             Learn more
           </Button>
@@ -82,7 +82,7 @@ export function Projects() {
         <CardFooter>
           <Button
             variant='solid'
-            colorScheme='blue'
+            colorScheme='teal'
           >
             Learn more
           </Button>
@@ -117,7 +117,7 @@ export function Projects() {
         <CardFooter>
           <Button
             variant='solid'
-            colorScheme='blue'
+            colorScheme='teal'
           >
             Learn more
           </Button>
