@@ -99,7 +99,7 @@ export function Projects() {
             size='lg'
             mb={3}
           >
-            Places You&apos;ll Go
+            Localization Example
           </Heading>
           <Image
             objectFit='cover'

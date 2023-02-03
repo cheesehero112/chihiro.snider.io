@@ -18,6 +18,7 @@ import {
   Stack,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon, DownloadIcon } from '@chakra-ui/icons';
+import { Alike_Angular } from '@next/font/google';
 
 const Links = ['Home', 'Projects', 'Contact'];
 
@@ -38,6 +39,17 @@ export const NavLink = ({ children }: { children: ReactNode }) => (
 
 export default function withAction() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const handleResumeDL = () => {
+    fetch('Chihiro_resume.pdf').then((res) => {
+      res.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'Chihiro_resume.pdf';
+        alink.click();
+      });
+    });
+  };
 
   return (
     <>
@@ -85,6 +97,7 @@ export default function withAction() {
               size={'sm'}
               mr={4}
               leftIcon={<DownloadIcon />}
+              onClick={handleResumeDL}
             >
               Resume
             </Button>
