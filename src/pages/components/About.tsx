@@ -42,7 +42,7 @@ export function About() {
             borderRadius='full'
             boxSize='200px'
             minW='200px'
-            src='https://github.com/oslabs-beta/RediScope/raw/main/src/components/images/Chihiroheadshot.png'
+            src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/Chihiroheadshot%20Small.jpeg'
             alt='Chihiro Snider'
             m={6}
           />
