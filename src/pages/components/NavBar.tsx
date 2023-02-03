@@ -12,6 +12,7 @@ import {
   MenuList,
   MenuItem,
   MenuDivider,
+  Image,
   useDisclosure,
   useColorModeValue,
   Stack,
@@ -60,7 +61,13 @@ export default function withAction() {
             spacing={8}
             alignItems={'center'}
           >
-            <Box>Logo</Box>
+            <Image
+              background='transparent'
+              boxSize='100%'
+              src='.../public/portfolio-logo.png'
+              alt='Website Logo'
+              m={6}
+            />
             <HStack
               as={'nav'}
               spacing={4}
