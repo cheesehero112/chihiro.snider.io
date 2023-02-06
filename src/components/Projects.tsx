@@ -44,18 +44,25 @@ export function Projects() {
             alt='RediScope Graph GIF'
             borderRadius='lg'
           />
-          <Text py='2'>
+          <Text
+            py='2'
+            mb={4}
+          >
             An open-source web application that intuitively and elegantly displays relevant Redis cache performance metrics in real-time
           </Text>
+          <SlArrowRightCircle />
+          <Link href='https://github.com/oslabs-beta/RediScope'>See GitHub Repo</Link>
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
-          >
-            Learn more
-          </Button>
+          <Link href='https://medium.com/@corald/rediscope-scope-out-your-redis-cache-performance-31ad2a101299'>
+            <Button
+              variant='solid'
+              colorScheme='teal'
+            >
+              Read Medium Article
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -82,12 +89,14 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
-          >
-            Learn more
-          </Button>
+          <Link href='https://github.com/cheesehero112/Places-You-ll-Go'>
+            <Button
+              variant='solid'
+              colorScheme='teal'
+            >
+              Go to GitHub Repo
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -114,20 +123,20 @@ export function Projects() {
             py='2'
             mb={4}
           >
-            a simple example of how to localize a single website into multiple languages. A user can select between English, Spanish, and Japanese by
+            A simple example of how to localize a single website into multiple languages. A user can select between English, Spanish, and Japanese by
             clicking a corresponding button
           </Text>
-          <SlArrowRightCircle />
-          <Link href='https://localization-example.netlify.app/'>Visit website</Link>
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
-          >
-            Learn more
-          </Button>
+          <Link href='https://localization-example.netlify.app/'>
+            <Button
+              variant='solid'
+              colorScheme='teal'
+            >
+              Visit Website
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -146,7 +155,7 @@ export function Projects() {
           <Image
             objectFit='cover'
             maxW={{ base: '100%' }}
-            src='https://github.com/cheesehero112/Localization-Example/raw/main/media/Localization-Jp.png'
+            src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/SoftwareLocalization-lectureCover-ChihiroSnider.jpg'
             alt='Software Localization Lecture Screenshot'
             borderRadius='lg'
           />
@@ -154,8 +163,8 @@ export function Projects() {
             py='2'
             mb={4}
           >
-            my recent lecture on Software Localization, where I gave a brief overview of &apos;what it is&apos;, &apos;why it&apos;s important&apos;,
-            and &apos;how to implement&apos;
+            A lecture on Software Localization, where I gave a brief overview of &apos;what it is&apos;, &apos;why it&apos;s important&apos;, and
+            &apos;how to implement&apos;
           </Text>
           <SlArrowRightCircle />
           <Link href='https://github.com/cheesehero112/Localization-Example'>See GitHub Repo</Link>
