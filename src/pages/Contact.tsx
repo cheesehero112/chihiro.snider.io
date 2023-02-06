@@ -2,7 +2,7 @@ import { Heading, Box, Image, Text, List, ListItem, ListIcon, Stack } from '@cha
 
 export default function Contact() {
   return (
-    <>
+    <Box height='90vh'>
       <Heading
         size='lg'
         m={8}
@@ -35,20 +35,20 @@ export default function Contact() {
             <List spacing={6}>
               <ListItem>
                 <ListIcon />
-                Email
+                chihirosnider@gmail.com
               </ListItem>
               <ListItem>
                 <ListIcon />
-                GitHub
+                <a href='https://github.com/cheesehero112'>github/cheesehero112</a>
               </ListItem>
               <ListItem>
                 <ListIcon />
-                LinkedIn
+                linkedin/chihirosnider
               </ListItem>
             </List>
           </Box>
         </Stack>
       </Stack>
-    </>
+    </Box>
   );
 }

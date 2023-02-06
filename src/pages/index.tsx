@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { Projects } from './components/Projects';
-import { About } from './components/About';
+import { Projects } from '../components/Projects';
+import { About } from '../components/About';
 
 import { Inter } from '@next/font/google';
 
