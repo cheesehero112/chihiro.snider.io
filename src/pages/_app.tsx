@@ -3,7 +3,6 @@ import type { AppProps } from 'next/app';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
-import { Layout } from '../components/Layout';
 import theme from '../theme';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -18,9 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   } else {
     return (
       <ChakraProvider theme={theme}>
-        {/* <Layout> */}
         <Component {...pageProps} />
-        {/* </Layout> */}
       </ChakraProvider>
     );
   }
