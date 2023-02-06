@@ -7,7 +7,7 @@ export function About() {
     <>
       <Stack
         display='flex'
-        direction='row'
+        direction={['column-reverse', 'row', 'row', 'row']}
         alignItems='center'
         maxW='80%'
         m='auto'
@@ -33,6 +33,7 @@ export function About() {
             size='md'
             mb={3}
             padding={3}
+            minWidth='300px'
           >
             I&apos;m a full-stack software engineer passionate about building web applications, problem-solving, and learning new technologies.
           </Text>

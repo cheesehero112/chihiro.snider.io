@@ -39,7 +39,7 @@ export default function Contact() {
               </ListItem>
               <ListItem>
                 <ListIcon />
-                <a href='https://github.com/cheesehero112'>github/cheesehero112</a>
+                {/* <a href='https://github.com/cheesehero112'>github/cheesehero112</a> */}
               </ListItem>
               <ListItem>
                 <ListIcon />

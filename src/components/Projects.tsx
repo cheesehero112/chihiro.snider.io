@@ -19,7 +19,7 @@ export function Projects() {
   return (
     <SimpleGrid
       spacing={4}
-      minChildWidth='300px'
+      minChildWidth='350px'
       // templateColumns='repeat(auto-fill, minmax(300px, 1fr))'
     >
       <Card
