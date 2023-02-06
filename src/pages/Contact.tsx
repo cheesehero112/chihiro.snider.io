@@ -1,4 +1,6 @@
-import { Heading, Box, Image, Text, List, ListItem, ListIcon, Stack } from '@chakra-ui/react';
+import { Heading, Box, Image, Text, List, ListItem, ListIcon, Stack, Link } from '@chakra-ui/react';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
 
 export default function Contact() {
   return (
@@ -11,13 +13,13 @@ export default function Contact() {
       </Heading>
       <Stack
         display='flex'
-        flex-flexDirection='column'
+        flexDirection='column'
         alignItems='center'
         m={8}
       >
         <Stack
           display='flex'
-          flexDirection='row'
+          flexDirection={['column', 'column', 'row', 'row']}
         >
           <Image
             borderRadius='full'
@@ -31,19 +33,20 @@ export default function Contact() {
             display='flex'
             alignItems='center'
             width='100%'
+            justifyContent='center'
           >
             <List spacing={6}>
               <ListItem>
-                <ListIcon />
+                <HiOutlineMail />
                 chihirosnider@gmail.com
               </ListItem>
               <ListItem>
-                <ListIcon />
-                <a href='https://github.com/cheesehero112'>github/cheesehero112</a>
+                <FaGithub />
+                <Link href='https://github.com/cheesehero112'>github/cheesehero112</Link>
               </ListItem>
               <ListItem>
-                <ListIcon />
-                linkedin/chihirosnider
+                <FaLinkedin />
+                <Link href='https://www.linkedin.com/in/chihiro-snider/'>linkedin/chihiro-snider</Link>
               </ListItem>
             </List>
           </Box>

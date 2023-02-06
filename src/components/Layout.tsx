@@ -1,10 +1,10 @@
-import Navbar from './NavBar';
 import Footer from './Footer';
+import { DarkModeSwitch } from './DarkModeSwith';
 
 export function Layout({ children }) {
   return (
     <>
-      <Navbar />
+      <DarkModeSwitch />
       <main>{children}</main>
       <Footer />
     </>

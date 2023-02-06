@@ -1,4 +1,4 @@
-import { Image, Stack, Heading, Text, Box, Card } from '@chakra-ui/react';
+import { Image, Stack, Heading, Text, Box, Card, Flex } from '@chakra-ui/react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { SocialButton } from './Footer';
 
@@ -7,7 +7,7 @@ export function About() {
     <>
       <Stack
         display='flex'
-        direction='row'
+        direction={['column-reverse', 'row', 'row', 'row']}
         alignItems='center'
         maxW='80%'
         m='auto'
@@ -22,20 +22,26 @@ export function About() {
           backgroundColor='none'
           minW='250px'
         >
-          <Heading
-            size='lg'
-            mb={3}
-            padding={3}
+          <Flex
+            align='left'
+            flexDirection='column'
           >
-            Hi, I&apos;m Chihiro Snider
-          </Heading>
-          <Text
-            size='md'
-            mb={3}
-            padding={3}
-          >
-            I&apos;m a full-stack software engineer passionate about building web applications, problem-solving, and learning new technologies.
-          </Text>
+            <Heading
+              size='lg'
+              mb={3}
+              padding={3}
+            >
+              Hi, I&apos;m Chihiro Snider
+            </Heading>
+
+            <Text
+              size='md'
+              mb={3}
+              padding={3}
+            >
+              I&apos;m a full-stack software engineer passionate about building web applications, problem-solving, and learning new technologies.
+            </Text>
+          </Flex>
         </Box>
         <Box>
           <Image
@@ -57,13 +63,13 @@ export function About() {
               label={'LinkedIn'}
               href={'https://www.linkedin.com/in/chihiro-snider/'}
             >
-              <FaLinkedin />
+              <FaLinkedin size='lg' />
             </SocialButton>
             <SocialButton
               label={'Github'}
               href={'https://github.com/cheesehero112'}
             >
-              <FaGithub />
+              <FaGithub size='lg' />
             </SocialButton>
           </Stack>
         </Box>

@@ -203,9 +203,9 @@
   .center::before {
     transform: none;
     height: 300px;
-  }
+  } */
 
-  .description {
+  /* .description {
     font-size: 0.8rem;
   }
 
@@ -219,9 +219,9 @@
     justify-content: center;
     position: fixed;
     width: 100%;
-  }
+  } */
 
-  .description p {
+  /* .description p {
     align-items: center;
     inset: 0 0 auto;
     padding: 2rem 1rem 1.4rem;
@@ -231,9 +231,9 @@
     background: linear-gradient(to bottom, rgba(var(--background-start-rgb), 1), rgba(var(--callout-rgb), 0.5));
     background-clip: padding-box;
     backdrop-filter: blur(24px);
-  }
+  } */
 
-  .description div {
+  /* .description div {
     align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
@@ -243,15 +243,16 @@
     z-index: 1;
   }
 } */
+*/
 
 /* Tablet and Smaller Desktop */
 /* @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .vercelLogo {
     filter: invert(1);
   }
@@ -260,13 +261,13 @@
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
   }
-}
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     transform: rotate(360deg);
   }
   to {
     transform: rotate(0deg);
   }
-}  */
+} */
