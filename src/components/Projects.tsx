@@ -3,6 +3,7 @@ import {
   Card,
   Text,
   Image,
+  Link,
   CardHeader,
   CardBody,
   CardFooter,
@@ -14,6 +15,7 @@ import {
   useColorMode,
   useColorModeValue,
 } from '@chakra-ui/react';
+import { SlArrowRightCircle } from 'react-icons/sl';
 
 export function Projects() {
   return (
@@ -108,10 +110,15 @@ export function Projects() {
             alt='Localization Example Screenshot'
             borderRadius='lg'
           />
-          <Text py='2'>
+          <Text
+            py='2'
+            mb={4}
+          >
             a simple example of how to localize a single website into multiple languages. A user can select between English, Spanish, and Japanese by
             clicking a corresponding button
           </Text>
+          <SlArrowRightCircle />
+          <Link href='https://localization-example.netlify.app/'>Visit website</Link>
         </CardBody>
 
         <CardFooter>
@@ -120,6 +127,48 @@ export function Projects() {
             colorScheme='teal'
           >
             Learn more
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card
+        overflow='hidden'
+        variant='outline'
+        maxW='md'
+        m={4}
+      >
+        <CardBody>
+          <Heading
+            size='lg'
+            mb={3}
+          >
+            Lecture: Software Localization
+          </Heading>
+          <Image
+            objectFit='cover'
+            maxW={{ base: '100%' }}
+            src='https://github.com/cheesehero112/Localization-Example/raw/main/media/Localization-Jp.png'
+            alt='Software Localization Lecture Screenshot'
+            borderRadius='lg'
+          />
+          <Text
+            py='2'
+            mb={4}
+          >
+            my recent lecture on Software Localization, where I gave a brief overview of &apos;what it is&apos;, &apos;why it&apos;s important&apos;,
+            and &apos;how to implement&apos;
+          </Text>
+          <SlArrowRightCircle />
+          <Link href='https://github.com/cheesehero112/Localization-Example'>See GitHub Repo</Link>
+        </CardBody>
+
+        <CardFooter>
+          <Button
+            variant='solid'
+            colorScheme='teal'
+          >
+            <Link href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'>
+              Watch Lecture
+            </Link>
           </Button>
         </CardFooter>
       </Card>
