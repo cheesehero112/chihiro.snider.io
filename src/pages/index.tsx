@@ -29,9 +29,10 @@ export default function Home() {
           href='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
         />
       </Head>
-      {/* <DarkModeSwitch /> */}
+      <DarkModeSwitch />
       <About />
       <Projects />
+      <Footer />
     </>
   );
 }

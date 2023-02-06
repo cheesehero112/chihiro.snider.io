@@ -1,12 +1,12 @@
-import Footer from './Footer';
-import { DarkModeSwitch } from './DarkModeSwith';
+// import Footer from './Footer';
+// import { DarkModeSwitch } from './DarkModeSwith';
 
-export function Layout({ children }) {
-  return (
-    <>
-      <DarkModeSwitch />
-      <main>{children}</main>
-      <Footer />
-    </>
-  );
-}
+// export function Layout({ children }) {
+//   return (
+//     <>
+//       <DarkModeSwitch />
+//       <main>{children}</main>
+//       <Footer />
+//     </>
+//   );
+// }

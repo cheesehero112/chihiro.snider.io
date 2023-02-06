@@ -18,9 +18,9 @@ export default function App({ Component, pageProps }: AppProps) {
   } else {
     return (
       <ChakraProvider theme={theme}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        {/* <Layout> */}
+        <Component {...pageProps} />
+        {/* </Layout> */}
       </ChakraProvider>
     );
   }
