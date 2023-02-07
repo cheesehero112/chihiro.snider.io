@@ -1,4 +1,4 @@
-import { useColorMode, Flex, Button, IconButton, useToast } from '@chakra-ui/react';
+import { useColorMode, Flex, Button, IconButton, useToast, Box } from '@chakra-ui/react';
 import { Container } from '../components/Containter';
 import { SunIcon, MoonIcon } from '@chakra-ui/icons';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
@@ -37,12 +37,17 @@ export const DarkModeSwitch = () => {
     });
   };
   return (
-    <Flex>
+    <Flex
+      justifyContent='flex-end'
+      mr={3}
+    >
       <Flex
-        pos='absolute'
+        // pos='absolute'
         top='1rem'
         right='1rem'
         align='center'
+        mb={5}
+        mt={2}
       >
         <Flex display={['none', 'none', 'flex', 'flex']}>
           <NextLink
@@ -50,11 +55,15 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Home'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
             >
               Home
             </Button>
@@ -64,11 +73,15 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Projects'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
             >
               Projects
             </Button>
@@ -78,11 +91,15 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Contact'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
             >
               Contact
             </Button>
@@ -92,11 +109,16 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Resume'
               my={5}
+              mr={3}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
               onClick={handleResumeDL}
             >
               Download Resume
@@ -107,6 +129,7 @@ export const DarkModeSwitch = () => {
           aria-label='Open Menu'
           size='lg'
           mr={2}
+          ml={2}
           icon={<HamburgerIcon />}
           display={['flex', 'flex', 'none', 'none']}
           onClick={() => {
@@ -121,6 +144,7 @@ export const DarkModeSwitch = () => {
           onClick={toggleColorMode}
         />
       </Flex>
+
       <Flex
         w='100vw'
         bgColor='gray.50'
@@ -144,6 +168,7 @@ export const DarkModeSwitch = () => {
             onClick={() => changeDisplay('none')}
           />
         </Flex>
+
         <Flex
           flexDir='column'
           align='center'
@@ -153,12 +178,16 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Home'
               color='black'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
               onClick={() => changeDisplay('none')}
             >
               Home
@@ -169,12 +198,16 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               color='black'
               aria-label='Projects'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
               onClick={() => changeDisplay('none')}
             >
               Projects
@@ -185,12 +218,16 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Contact'
               color='black'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
               onClick={() => changeDisplay('none')}
             >
               Contact
@@ -201,12 +238,16 @@ export const DarkModeSwitch = () => {
             passHref
           >
             <Button
-              as='a'
+              //   as='a'
               variant='ghost'
               aria-label='Resume'
               color='black'
               my={5}
               w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
               onClick={handleResumeDL}
             >
               Download Resume

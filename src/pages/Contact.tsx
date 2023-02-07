@@ -1,3 +1,5 @@
+import { DarkModeSwitch } from '@/components/DarkModeSwith';
+import Footer from '@/components/Footer';
 import { Heading, Box, Image, Text, List, ListItem, ListIcon, Stack, Link } from '@chakra-ui/react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -50,6 +52,9 @@ export default function Contact() {
                 <Link
                   href='https://github.com/cheesehero112'
                   target='_blank'
+                  _hover={{
+                    color: 'teal.500',
+                  }}
                 >
                   github/cheesehero112
                 </Link>
@@ -59,6 +64,9 @@ export default function Contact() {
                 <Link
                   href='https://www.linkedin.com/in/chihiro-snider/'
                   target='_blank'
+                  _hover={{
+                    color: 'teal.500',
+                  }}
                 >
                   linkedin/chihiro-snider
                 </Link>

@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { Projects } from '../components/Projects';
 import { About } from '../components/About';
-
 import { Inter } from '@next/font/google';
-
-import styles from '@/styles/Home.module.css';
+import { DarkModeSwitch } from '@/components/DarkModeSwith';
+import Footer from '@/components/Footer';
+import { Box } from '@chakra-ui/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,7 +26,6 @@ export default function Home() {
           href='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
         />
       </Head>
-
       <About />
       <Projects />
     </>
