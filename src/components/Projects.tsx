@@ -52,15 +52,17 @@ export function Projects() {
           </Text>
           <SlArrowRightCircle />
           <Link href='https://github.com/oslabs-beta/RediScope'>See GitHub Repo</Link>
+          <SlArrowRightCircle />
+          <Link href='https://medium.com/@corald/rediscope-scope-out-your-redis-cache-performance-31ad2a101299'>Read Medium Article</Link>
         </CardBody>
 
         <CardFooter>
-          <Link href='https://medium.com/@corald/rediscope-scope-out-your-redis-cache-performance-31ad2a101299'>
+          <Link href='https://rediscope.com'>
             <Button
               variant='solid'
               colorScheme='teal'
             >
-              Read Medium Article
+              Visit Website
             </Button>
           </Link>
         </CardFooter>

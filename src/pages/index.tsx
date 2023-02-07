@@ -6,8 +6,6 @@ import { About } from '../components/About';
 import { Inter } from '@next/font/google';
 
 import styles from '@/styles/Home.module.css';
-import { DarkModeSwitch } from '@/components/DarkModeSwith';
-import Footer from '../components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,10 +27,9 @@ export default function Home() {
           href='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/fav-portfolio.png'
         />
       </Head>
-      <DarkModeSwitch />
+
       <About />
       <Projects />
-      <Footer />
     </>
   );
 }
