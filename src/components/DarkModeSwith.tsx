@@ -1,4 +1,5 @@
 import { useColorMode, Flex, Button, IconButton, useToast } from '@chakra-ui/react';
+import { Container } from '../components/Containter';
 import { SunIcon, MoonIcon } from '@chakra-ui/icons';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
@@ -36,7 +37,7 @@ export const DarkModeSwitch = () => {
     });
   };
   return (
-    <Flex mb={20}>
+    <Container>
       <Flex
         pos='absolute'
         top='1rem'
@@ -205,6 +206,6 @@ export const DarkModeSwitch = () => {
           </NextLink>
         </Flex>
       </Flex>
-    </Flex>
+    </Container>
   );
 };

@@ -22,6 +22,8 @@ export function Projects() {
     <SimpleGrid
       spacing={4}
       minChildWidth='350px'
+      // justifyContent='space-evenly'
+      // alignItems='center'
       // templateColumns='repeat(auto-fill, minmax(300px, 1fr))'
     >
       <Card
@@ -37,13 +39,18 @@ export function Projects() {
           >
             RediScope
           </Heading>
-          <Image
-            objectFit='cover'
-            maxW={{ base: '100%' }}
-            src='https://github.com/oslabs-beta/RediScope/raw/main/src/components/images/giphygraph.gif'
-            alt='RediScope Graph GIF'
-            borderRadius='lg'
-          />
+          <Link
+            href='https://rediscope.com'
+            target='_blank'
+          >
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%' }}
+              src='https://github.com/oslabs-beta/RediScope/raw/main/src/components/images/giphygraph.gif'
+              alt='RediScope Graph GIF'
+              borderRadius='lg'
+            />
+          </Link>
           <Text
             py='2'
             mb={4}
@@ -57,14 +64,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Link href='https://rediscope.com'>
-            <Button
-              variant='solid'
-              colorScheme='teal'
+          <Button
+            variant='solid'
+            colorScheme='teal'
+          >
+            <Link
+              href='https://rediscope.com'
+              target='_blank'
             >
               Visit Website
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </CardFooter>
       </Card>
       <Card
@@ -80,25 +90,33 @@ export function Projects() {
           >
             Places You&apos;ll Go
           </Heading>
-          <Image
-            objectFit='cover'
-            maxW={{ base: '100%' }}
-            src='https://github.com/cheesehero112/Places-You-ll-Go/raw/main/media/Places-Screenshot1.png'
-            alt="Places You'll Go screenshot"
-            borderRadius='lg'
-          />
+          <Link
+            href='https://github.com/cheesehero112/Places-You-ll-Go'
+            target='_blank'
+          >
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%' }}
+              src='https://github.com/cheesehero112/Places-You-ll-Go/raw/main/media/Places-Screenshot1.png'
+              alt="Places You'll Go screenshot"
+              borderRadius='lg'
+            />
+          </Link>
           <Text py='2'>A web application to keep track of dream destinations and visualize them on a map using ArcGIS API</Text>
         </CardBody>
 
         <CardFooter>
-          <Link href='https://github.com/cheesehero112/Places-You-ll-Go'>
-            <Button
-              variant='solid'
-              colorScheme='teal'
+          <Button
+            variant='solid'
+            colorScheme='teal'
+          >
+            <Link
+              href='https://github.com/cheesehero112/Places-You-ll-Go'
+              target='_blank'
             >
               Go to GitHub Repo
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </CardFooter>
       </Card>
       <Card
@@ -114,13 +132,18 @@ export function Projects() {
           >
             Localization Example
           </Heading>
-          <Image
-            objectFit='cover'
-            maxW={{ base: '100%' }}
-            src='https://github.com/cheesehero112/Localization-Example/raw/main/media/Localization-Jp.png'
-            alt='Localization Example Screenshot'
-            borderRadius='lg'
-          />
+          <Link
+            href='https://localization-example.netlify.app/'
+            target='_blank'
+          >
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%' }}
+              src='https://github.com/cheesehero112/Localization-Example/raw/main/media/Localization-Jp.png'
+              alt='Localization Example Screenshot'
+              borderRadius='lg'
+            />
+          </Link>
           <Text
             py='2'
             mb={4}
@@ -131,14 +154,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Link href='https://localization-example.netlify.app/'>
-            <Button
-              variant='solid'
-              colorScheme='teal'
+          <Button
+            variant='solid'
+            colorScheme='teal'
+          >
+            <Link
+              href='https://localization-example.netlify.app/'
+              target='_blank'
             >
               Visit Website
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </CardFooter>
       </Card>
       <Card
@@ -154,13 +180,18 @@ export function Projects() {
           >
             Lecture: Software Localization
           </Heading>
-          <Image
-            objectFit='cover'
-            maxW={{ base: '100%' }}
-            src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/SoftwareLocalization-lectureCover-ChihiroSnider.jpg'
-            alt='Software Localization Lecture Screenshot'
-            borderRadius='lg'
-          />
+          <Link
+            href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'
+            target='_blank'
+          >
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%' }}
+              src='https://github.com/cheesehero112/chihiro.snider.io/raw/main/public/SoftwareLocalization-lectureCover-ChihiroSnider.jpg'
+              alt='Software Localization Lecture Screenshot'
+              borderRadius='lg'
+            />
+          </Link>
           <Text
             py='2'
             mb={4}
@@ -169,7 +200,12 @@ export function Projects() {
             &apos;how to implement&apos;
           </Text>
           <SlArrowRightCircle />
-          <Link href='https://github.com/cheesehero112/Localization-Example'>See GitHub Repo</Link>
+          <Link
+            href='https://github.com/cheesehero112/Localization-Example'
+            target='_blank'
+          >
+            See GitHub Repo
+          </Link>
         </CardBody>
 
         <CardFooter>
@@ -177,7 +213,10 @@ export function Projects() {
             variant='solid'
             colorScheme='teal'
           >
-            <Link href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'>
+            <Link
+              href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'
+              target='_blank'
+            >
               Watch Lecture
             </Link>
           </Button>
