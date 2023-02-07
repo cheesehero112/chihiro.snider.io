@@ -37,7 +37,7 @@ export const DarkModeSwitch = () => {
     });
   };
   return (
-    <Container>
+    <Flex>
       <Flex
         pos='absolute'
         top='1rem'
@@ -206,6 +206,6 @@ export const DarkModeSwitch = () => {
           </NextLink>
         </Flex>
       </Flex>
-    </Container>
+    </Flex>
   );
 };
