@@ -109,7 +109,10 @@ export const DarkModeSwitch = () => {
           mr={2}
           icon={<HamburgerIcon />}
           display={['flex', 'flex', 'none', 'none']}
-          onClick={() => changeDisplay('flex')}
+          onClick={() => {
+            changeDisplay('flex');
+            // toggleColorMode;
+          }}
         />
         <IconButton
           icon={isDark ? <SunIcon /> : <MoonIcon />}
@@ -121,6 +124,7 @@ export const DarkModeSwitch = () => {
       <Flex
         w='100vw'
         bgColor='gray.50'
+        color='black'
         zIndex={20}
         h='180vh'
         pos='fixed'
@@ -152,6 +156,7 @@ export const DarkModeSwitch = () => {
               as='a'
               variant='ghost'
               aria-label='Home'
+              color='black'
               my={5}
               w='100%'
               onClick={() => changeDisplay('none')}
@@ -166,6 +171,7 @@ export const DarkModeSwitch = () => {
             <Button
               as='a'
               variant='ghost'
+              color='black'
               aria-label='Projects'
               my={5}
               w='100%'
@@ -182,6 +188,7 @@ export const DarkModeSwitch = () => {
               as='a'
               variant='ghost'
               aria-label='Contact'
+              color='black'
               my={5}
               w='100%'
               onClick={() => changeDisplay('none')}
@@ -197,6 +204,7 @@ export const DarkModeSwitch = () => {
               as='a'
               variant='ghost'
               aria-label='Resume'
+              color='black'
               my={5}
               w='100%'
               onClick={handleResumeDL}
