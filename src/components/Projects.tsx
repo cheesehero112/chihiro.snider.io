@@ -64,17 +64,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
+          <Link
+            href='https://rediscope.com'
+            target='_blank'
           >
-            <Link
-              href='https://rediscope.com'
-              target='_blank'
+            <Button
+              variant='solid'
+              colorScheme='teal'
             >
               Visit Website
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -106,17 +106,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
+          <Link
+            href='https://github.com/cheesehero112/Places-You-ll-Go'
+            target='_blank'
           >
-            <Link
-              href='https://github.com/cheesehero112/Places-You-ll-Go'
-              target='_blank'
+            <Button
+              variant='solid'
+              colorScheme='teal'
             >
               Go to GitHub Repo
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -154,17 +154,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
+          <Link
+            href='https://localization-example.netlify.app/'
+            target='_blank'
           >
-            <Link
-              href='https://localization-example.netlify.app/'
-              target='_blank'
+            <Button
+              variant='solid'
+              colorScheme='teal'
             >
               Visit Website
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
       <Card
@@ -209,17 +209,17 @@ export function Projects() {
         </CardBody>
 
         <CardFooter>
-          <Button
-            variant='solid'
-            colorScheme='teal'
+          <Link
+            href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'
+            target='_blank'
           >
-            <Link
-              href='https://www.linkedin.com/posts/activity-7025899673152352256-9Wr3?utm_source=share&utm_medium=member_desktop'
-              target='_blank'
+            <Button
+              variant='solid'
+              colorScheme='teal'
             >
               Watch Lecture
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
     </SimpleGrid>
