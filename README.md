@@ -4,10 +4,10 @@
 
 This is a [Next.js](https://nextjs.org/) portfolio site bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-It is deployed using Vercel.
+It is deployed using Vercel, allowing a CI/CD pipeline. All changes pushed to main branch will automatically be built and deployed.
 
 Tech Stacks:
-React, Next.js, TypeScript, Chakra.ui
+React, Next.js, TypeScript, Chakra.ui, Vercel
 
 ## References
 
