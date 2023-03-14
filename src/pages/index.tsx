@@ -1,10 +1,8 @@
 import Head from 'next/head';
-import { Projects } from '../components/Projects';
+import Projects from './Projects';
+import Articles from './Articles';
 import { About } from '../components/About';
 import { Inter } from '@next/font/google';
-import { DarkModeSwitch } from '@/components/DarkModeSwith';
-import Footer from '@/components/Footer';
-import { Box } from '@chakra-ui/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -46,6 +44,7 @@ export default function Home() {
       </Head>
       <About />
       <Projects />
+      <Articles />
     </>
   );
 }

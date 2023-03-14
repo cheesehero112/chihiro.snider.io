@@ -1,25 +1,7 @@
-import {
-  Flex,
-  Card,
-  Text,
-  Image,
-  Link,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Heading,
-  Input,
-  Stack,
-  Button,
-  SimpleGrid,
-  useColorMode,
-  useColorModeValue,
-} from '@chakra-ui/react';
+import { Card, Text, Image, Link, CardBody, CardFooter, Heading, Button, SimpleGrid } from '@chakra-ui/react';
 import { SlArrowRightCircle } from 'react-icons/sl';
-import { DarkModeSwitch } from './DarkModeSwith';
-import Footer from '@/components/Footer';
 
-export function Projects() {
+export function ProjectContents() {
   return (
     <SimpleGrid
       spacing={4}
@@ -65,9 +47,19 @@ export function Projects() {
             An open-source web application that intuitively and elegantly displays relevant Redis cache performance metrics in real-time
           </Text>
           <SlArrowRightCircle />
-          <Link href='https://github.com/oslabs-beta/RediScope'>See GitHub Repo</Link>
+          <Link
+            href='https://github.com/oslabs-beta/RediScope'
+            target='_blank'
+          >
+            See GitHub Repo
+          </Link>
           <SlArrowRightCircle />
-          <Link href='https://medium.com/@corald/rediscope-scope-out-your-redis-cache-performance-31ad2a101299'>Read Medium Article</Link>
+          <Link
+            href='https://medium.com/@corald/rediscope-scope-out-your-redis-cache-performance-31ad2a101299'
+            target='_blank'
+          >
+            Read Medium Article
+          </Link>
         </CardBody>
 
         <CardFooter>

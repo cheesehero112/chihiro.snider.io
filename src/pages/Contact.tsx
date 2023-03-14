@@ -1,7 +1,5 @@
-import { DarkModeSwitch } from '@/components/DarkModeSwith';
-import Footer from '@/components/Footer';
-import { Heading, Box, Image, Text, List, ListItem, ListIcon, Stack, Link } from '@chakra-ui/react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { Heading, Box, Image, List, ListItem, Stack, Link } from '@chakra-ui/react';
+import { FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 export default function Contact() {
@@ -69,6 +67,18 @@ export default function Contact() {
                   }}
                 >
                   linkedin/chihiro-snider
+                </Link>
+              </ListItem>
+              <ListItem>
+                <FaMedium />
+                <Link
+                  href='https://chihiro-and-justin.medium.com/'
+                  target='_blank'
+                  _hover={{
+                    color: 'teal.500',
+                  }}
+                >
+                  chihiro-and-justin.medium.com
                 </Link>
               </ListItem>
             </List>

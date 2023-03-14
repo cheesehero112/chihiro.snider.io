@@ -1,16 +1,16 @@
-import { ProjectContents } from '../components/ProjectContents';
+import { ArticleContents } from '../components/ArticleContents';
 import { Heading } from '@chakra-ui/react';
 
-export default function Projects() {
+export default function Articles() {
   return (
     <>
       <Heading
         size='lg'
         m={8}
       >
-        Projects
+        Articles
       </Heading>
-      <ProjectContents />
+      <ArticleContents />
     </>
   );
 }

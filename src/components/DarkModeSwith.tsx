@@ -1,5 +1,4 @@
-import { useColorMode, Flex, Button, IconButton, useToast, Box } from '@chakra-ui/react';
-import { Container } from '../components/Containter';
+import { useColorMode, Flex, Button, IconButton, useToast } from '@chakra-ui/react';
 import { SunIcon, MoonIcon } from '@chakra-ui/icons';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
@@ -84,6 +83,24 @@ export const DarkModeSwitch = () => {
               }}
             >
               Projects
+            </Button>
+          </NextLink>
+          <NextLink
+            href='/Articles'
+            passHref
+          >
+            <Button
+              //   as='a'
+              variant='ghost'
+              aria-label='Home'
+              my={5}
+              w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
+            >
+              Articles
             </Button>
           </NextLink>
           <NextLink
@@ -191,6 +208,26 @@ export const DarkModeSwitch = () => {
               onClick={() => changeDisplay('none')}
             >
               Home
+            </Button>
+          </NextLink>
+          <NextLink
+            href='/Articles'
+            passHref
+          >
+            <Button
+              //   as='a'
+              variant='ghost'
+              color='black'
+              aria-label='Projects'
+              my={5}
+              w='100%'
+              _hover={{
+                background: 'teal.50',
+                color: 'teal.500',
+              }}
+              onClick={() => changeDisplay('none')}
+            >
+              Articles
             </Button>
           </NextLink>
           <NextLink
