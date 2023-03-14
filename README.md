@@ -21,7 +21,6 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Contributer
 
-|     | GitHub | LinkedIn |
-| --- | ------ | -------- |
-
+|                | GitHub                                             | LinkedIn                                                       |
+| -------------- | -------------------------------------------------- | -------------------------------------------------------------- |
 | Chihiro Snider | [@cheesehero112](https://github.com/cheesehero112) | [@chihiro-snider](https://www.linkedin.com/in/chihiro-snider/) |
