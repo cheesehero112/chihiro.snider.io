@@ -61,7 +61,7 @@ export function ArticleContents() {
 
         <CardFooter>
           <Link
-            href='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dfZSHh-ZXVuLvbS_3IfR2A.png'
+            href='https://chihiro-and-justin.medium.com/deploy-a-react-vite-app-using-github-actions-and-github-pages-a370df30da97'
             target='_blank'
             _hover={{
               textDecoration: 'none',
