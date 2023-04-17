@@ -77,6 +77,61 @@ export function ArticleContents() {
           </Link>
         </CardFooter>
       </Card>
+      <Card
+        overflow='hidden'
+        variant='outline'
+        maxW='md'
+        m={4}
+        boxShadow='md'
+        p='6'
+      >
+        <CardBody>
+          <Heading
+            size='lg'
+            mb={3}
+          >
+            How to install Anaconda for MacOS
+          </Heading>
+          <Link
+            href='https://medium.com/@chihiro-and-justin/how-to-install-anaconda-for-macos-577093c49147'
+            target='_blank'
+          >
+            <Image
+              objectFit='cover'
+              maxW={{ base: '100%' }}
+              src='https://miro.medium.com/v2/resize:fit:1400/0*yPQfzE1zz6OYJ4Im'
+              alt='A photo of a forest by Chris Abney'
+              borderRadius='lg'
+              _hover={{
+                boxShadow: 'lg',
+              }}
+            />
+          </Link>
+          <Text
+            py='2'
+            mb={4}
+          >
+            A guide on how to set up Anaconda on a MacBook to get the environment for using Python.
+          </Text>
+        </CardBody>
+        <CardFooter>
+          <Link
+            href='https://medium.com/@chihiro-and-justin/how-to-install-anaconda-for-macos-577093c49147'
+            target='_blank'
+            _hover={{
+              textDecoration: 'none',
+              boxShadow: 'lg',
+            }}
+          >
+            <Button
+              variant='solid'
+              colorScheme='teal'
+            >
+              Read Medium Article
+            </Button>
+          </Link>
+        </CardFooter>
+      </Card>
     </SimpleGrid>
   );
 }
