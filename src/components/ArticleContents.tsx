@@ -23,7 +23,7 @@ export function ArticleContents() {
             Deploy a React Vite app using GitHub Actions and GitHub Pages
           </Heading>
           <Link
-            href='https://chihiro-and-justin.medium.com/deploy-a-react-vite-app-using-github-actions-and-github-pages-a370df30da97'
+            href='https://chihiro-and-justin.medium.com/deploy-a-react-vite-app-using-github-actions-and-github-pages-a370df30da97?source=friends_link&sk=be072bd0a174bf3026578f3ed4dfe296'
             target='_blank'
           >
             <Image
@@ -61,7 +61,7 @@ export function ArticleContents() {
 
         <CardFooter>
           <Link
-            href='https://chihiro-and-justin.medium.com/deploy-a-react-vite-app-using-github-actions-and-github-pages-a370df30da97'
+            href='https://chihiro-and-justin.medium.com/deploy-a-react-vite-app-using-github-actions-and-github-pages-a370df30da97?source=friends_link&sk=be072bd0a174bf3026578f3ed4dfe296'
             target='_blank'
             _hover={{
               textDecoration: 'none',
@@ -93,7 +93,7 @@ export function ArticleContents() {
             How to install Anaconda for MacOS
           </Heading>
           <Link
-            href='https://medium.com/@chihiro-and-justin/how-to-install-anaconda-for-macos-577093c49147'
+            href='https://chihiro-and-justin.medium.com/how-to-install-anaconda-for-macos-577093c49147?source=friends_link&sk=72d9a3b364dafce1eb3cdb0e62aa84f9'
             target='_blank'
           >
             <Image
@@ -116,7 +116,7 @@ export function ArticleContents() {
         </CardBody>
         <CardFooter>
           <Link
-            href='https://medium.com/@chihiro-and-justin/how-to-install-anaconda-for-macos-577093c49147'
+            href='https://chihiro-and-justin.medium.com/how-to-install-anaconda-for-macos-577093c49147?source=friends_link&sk=72d9a3b364dafce1eb3cdb0e62aa84f9'
             target='_blank'
             _hover={{
               textDecoration: 'none',
