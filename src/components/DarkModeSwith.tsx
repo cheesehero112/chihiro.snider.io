@@ -23,12 +23,12 @@ export const DarkModeSwitch = () => {
 
   // resume download function
   const handleResumeDL = () => {
-    fetch('Chihiro_resume_031523.pdf').then((res) => {
+    fetch('Chihiro_resume_051023.pdf').then((res) => {
       res.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'Chihiro_resume.pdf';
+        alink.download = 'Chihiro_resume_051023.pdf';
         alink.click();
 
         showToast();
