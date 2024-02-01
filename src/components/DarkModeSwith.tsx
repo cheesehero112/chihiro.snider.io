@@ -28,7 +28,7 @@ export const DarkModeSwitch = () => {
 				const fileURL = window.URL.createObjectURL(blob);
 				let alink = document.createElement('a');
 				alink.href = fileURL;
-				alink.download = 'Chihiro_resume_051023.pdf';
+				alink.download = 'Chihiro_Snider_resume_Jan2024.pdf';
 				alink.click();
 
 				showToast();
